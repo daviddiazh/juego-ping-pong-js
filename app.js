@@ -70,7 +70,7 @@
 		this.board = board;
 		this.board.bars.push(this);
 		this.kind = "rectangle";
-		this.speed = 7;
+		this.speed = 12;
 	}
 
 	self.Bar.prototype = {
