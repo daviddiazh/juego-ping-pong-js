@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 body{
     text-align: center;
@@ -8,17 +9,41 @@ body{
 h2{
     color: rgb(53, 179, 218);
     background-color: #ebebeb;
-    padding: 20px 0;
+    padding: 15px 0;
 }
 canvas{
-    border: solid;
-    margin: 20px 0;
+    border: solid rgb(47, 204, 252);
+    margin: 10px 0;
 }
 footer{
-    color: rgb(53, 179, 218);
+    
     background-color: #ebebeb;
     padding: 10px 0;
 }
 p{
-    font-size: 22px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.reset{
+    background-color:rgb(53, 179, 218);
+    color: #fff;
+    width: 195px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 21px;
+    box-shadow: 10px 15px 35px #cecece;
+    margin: 20px;
+    text-align: center;
+}
+
+.reset:hover{
+    box-shadow: 10px 15px 25px #cecece;
+    background-color:rgb(53, 179, 218, .9);
+}
+
+div{
+    margin-top: 20px;
 }

@@ -6,20 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="iconoddhtransparente.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <title>Ping Pong</title>
 </head>
 <body>
-    <h2>Este es el juego tradicional de Ping Pong.</h2>
-    <p>Estos son los controles para jugar en pareja:</p>
-    <p><strong>Para el primer usuario</strong>Para arriba: <strong>W</strong> Para abajo: <strong>S</strong></p>
-    <p><strong>Para el segundo usuario</strong> Para arriba: <strong>Flecha arriba</strong> Para abajo: <strong>Flecha abajo</strong></p>
-
-    <p style="padding-top: 20px;"><strong>Para iniciar el juego debes apretar la barra de espacio</strong></p>
+    <h2>Este es el juego tradicional de Ping Pong 🏓🏓</h2>
+    <div>   
+        <h1>Instrucciones</h1>
+        <p><span style="font-weight: 900;">Para el primer usuario = </span> Para mover arriba: <span style="font-weight: 900;">( W ) 🎮</span> Para mover abajo: <span style="font-weight: 900;">( S ) 🎮</span></p><br>
+        <p><span style="font-weight: 900;">Para el segundo usuario = </span> Para mover arriba: <span style="font-weight: 900;">( Flecha arriba ) 🕹️</span> Para mover abajo: <span style="font-weight: 900;">( Flecha abajo ) 🕹️</span></p>
+        
+        <p style="padding-top: 20px;"><span style="font-weight: 900;">Para iniciar el juego debes apretar la barra de espacio </span></p>
+        <button class="reset" onclick="location.reload()">Reiniciar juego ⚙️
+        </button>
+    </div>
+    
+    
 
     <canvas id="canvas"></canvas>
 
     <footer>
-        <p><strong>David Diaz Herrera.</strong></p>
+        <p>Powered by: <span style="font-weight: 900;">David Diaz Herrera.</span></p>
     </footer>
 
     <script src="app.js"></script>
